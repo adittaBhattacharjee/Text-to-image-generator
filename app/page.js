@@ -77,13 +77,13 @@ export default function () {
                         <BsTwitter className={styles.twitter} />
                     </a>
                     <a
-                        href="https://twitter.com/DoritosAdidas"
+                        href="https://instagram.com/im_aditya_bhattacharjee"
                         target="_blank"
                     >
                         <BsInstagram className={styles.instagram} />
                     </a>
                     <a
-                        href="https://twitter.com/DoritosAdidas"
+                        href="https://github.com/adityaBhattacharjee"
                         target="_blank"
                     >
                         <BsGithub className={styles.github} />
