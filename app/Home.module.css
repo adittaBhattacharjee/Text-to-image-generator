@@ -1,0 +1,182 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 100vh;
+    padding: 4rem 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: space-between;
+  }
+  
+  .footer a {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 60px;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+  
+  .title,
+  .description {
+    text-align: center;
+  }
+  
+  .description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  
+  .icons {
+    display: flex;
+    flex-grow: 1;
+    align-items: right;
+  }
+  
+  .form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .searchbar {
+    background: transparent;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 50vmin;
+    border: 1px solid #eaeaea
+  }
+  
+  .searchbar:hover,
+  .searchbar:focus,
+  .searchbar:active {
+    border-color: #332FD0;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .searchbar,
+    .footer {
+      border-color: #222;
+    }
+  }
+  
+  .instagram {
+    color: #FB2576;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .twitter {
+    color: #332FD0;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .github {
+    color: #F3EFE0;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .blue {
+    color: #332FD0;
+  }
+  
+  .pink {
+    color: #FB2576;
+  }
+  
+  .button {
+    background: #FB2576;
+    border: none;
+    padding: .75rem;
+    border-radius: 15px;
+  }
+  
+  .button_text {
+    font-size: 1rem;
+  }
+  
+  .result {
+    margin-top: 1.5rem;
+    width: 540px;
+  }
+  
+  .button:hover{
+    scale: 105%;
+    cursor: pointer;
+  }
+
+  .instagram:hover{
+    scale: 105%;
+    cursor: pointer;
+  }
+
+  .github:hover{
+    scale: 105%;
+    cursor: pointer;
+  }
+
+  .twitter:hover{
+    scale: 105%;
+    cursor: pointer;
+  }
+
+  .loading {
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+  }
+  .loading div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loading div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loading div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
